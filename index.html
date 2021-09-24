@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Stop Watch</title>
+    <link rel="stylesheet" href="style.css";
+    
+
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Stop Watch</h1>
+        <p class="time"><span id="second">00</span>:<span id="tens">00</span></p>
+        <audio id="audio" src="sound.mp3"></audio>
+        <button id="btn-start" onclick=document.getElementById("audio").play()>Start</button>
+        <button id="btn-stop" onclick=document.getElementById("audio").pause()>Stop</button>
+        <button id="btn-reset" onclick=document.getElementById("audio").pause()>Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
