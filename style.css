@@ -51,6 +51,12 @@ p.time   {
     padding: 10px 0px 10px 0px;
 }
 
+footer .text   {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
 /* Responsive Media Query */
 @media (max-width: 1190px) {
     body  {
