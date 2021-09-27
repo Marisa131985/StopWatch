@@ -2,6 +2,9 @@ body   {
     margin: 0%;
     padding: 0%;
     background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 
@@ -47,3 +50,36 @@ p.time   {
     margin: auto;
     padding: 10px 0px 10px 0px;
 }
+
+/* Responsive Media Query */
+@media (max-width: 1190px) {
+    body  {
+      width: 85%;
+    }
+  }
+  @media (max-width: 1000px) {
+    body   {
+      justify-content: center;
+      flex-direction: column;
+  }
+  @media (max-width: 900px) {
+    body {
+      height: 350px;
+      width: 350px;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    body  {
+      height: 90%;
+      width: 90%;
+    }
+    
+  
+  @media (max-width: 500px){
+    body  {
+        height: auto;
+        width: auto;
+    }
+
+
